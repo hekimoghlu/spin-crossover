@@ -1,0 +1,1475 @@
+{
+ "design_space": {
+  "n_scaffolds": 301,
+  "n_complexes": 1505,
+  "n_pairs": 1204,
+  "n_designs": 141,
+  "n_designs_by_analyte": {
+   "Cl": 0,
+   "N3": 2,
+   "NCS": 0,
+   "CN": 139
+  },
+  "n_HS_to_LS": 141,
+  "Delta_min": 9550.0,
+  "Delta_max": 13916.666666666666,
+  "B_min": 639.0319999999999,
+  "B_max": 804.08,
+  "max_T_resting": 87.6221863130718,
+  "crossover_exact_DoverB": 17.926796124069867,
+  "crossover_mf_DoverB": 19.3,
+  "tol_floor_cm": 50.1560857388192,
+  "n_window": 12,
+  "nearest_below": 308.245948724553,
+  "nearest_above": 317.393504996095
+ },
+ "interferents": {
+  "n_designs": 141,
+  "n_selective_all": 137,
+  "n_fp_designs": 4,
+  "fp_scaffolds": [
+   "1en+4bipy",
+   "5bipy"
+  ],
+  "fp_per_donor": {
+   "hydroxide": 0,
+   "phosphate": 0,
+   "carboxylate": 0,
+   "imidazole": 4,
+   "amine": 2,
+   "thiolate": 0
+  },
+  "n_cross_silent": 137,
+  "cross_fp_designs": [
+   "1en+4bipy|CN",
+   "1en+4bipy|N3",
+   "5bipy|CN",
+   "5bipy|N3"
+  ],
+  "min_margin_is_imidazole_all": true,
+  "min_margin_donor_counts": {
+   "hydroxide": 0,
+   "phosphate": 0,
+   "carboxylate": 0,
+   "imidazole": 141,
+   "amine": 0,
+   "thiolate": 0
+  },
+  "margin_median": 0.38488503063182966,
+  "margin_min": -0.10511496938077891,
+  "margin_max": 0.6614664686259197,
+  "n_margin_pos": 135,
+  "n_margin_gt_0p1": 126,
+  "n_margin_gt_0p2": 110,
+  "n_margin_nonpos": 6,
+  "fstar_imidazole_min": 1.124885030619221,
+  "fstar_imidazole_median": 1.6148850306318296,
+  "fstar_imidazole_max": 1.8914664686259197,
+  "margins_sorted": [
+   -0.10511496938077891,
+   -0.10511496938077891,
+   -0.055114969368127875,
+   -0.055114969368127875,
+   -0.005114969368137379,
+   -0.005114969368137379,
+   0.020412264227482435,
+   0.044885030631867995,
+   0.044885030631867995,
+   0.044885030631867995,
+   0.07041226422747937,
+   0.09488503063186582,
+   0.09488503063186582,
+   0.09488503063186582,
+   0.09488503063186582,
+   0.12041226422748341,
+   0.12041226422748341,
+   0.14488503063186386,
+   0.14488503063186386,
+   0.14488503063186386,
+   0.14488503063186386,
+   0.14488503063186386,
+   0.14593940971179764,
+   0.1704122642274779,
+   0.17041226422747813,
+   0.1948850306318699,
+   0.1948850306318699,
+   0.1948850306318699,
+   0.19488503063187568,
+   0.19488503063187568,
+   0.195939409711809,
+   0.22041226422747284,
+   0.22041226422747817,
+   0.23488503063187016,
+   0.24488503063186973,
+   0.24488503063186973,
+   0.24488503063186973,
+   0.24488503063187128,
+   0.24488503063187128,
+   0.2459394097118066,
+   0.2459394097118066,
+   0.2704122642274811,
+   0.2714664686261137,
+   0.28488503063187043,
+   0.2948850306318713,
+   0.29488503063187843,
+   0.29488503063187843,
+   0.29488503063187843,
+   0.29488503063187843,
+   0.29593940971180777,
+   0.29593940971180954,
+   0.3204122642274905,
+   0.3204122642274905,
+   0.3204122642274918,
+   0.3204122642274918,
+   0.32146646862611705,
+   0.33488503063185515,
+   0.33488503063185515,
+   0.3448850306318634,
+   0.3448850306318634,
+   0.3448850306318634,
+   0.3448850306318634,
+   0.3448850306318634,
+   0.34593940971179027,
+   0.34593940971179027,
+   0.3604122642274472,
+   0.3704122642274532,
+   0.371466468626084,
+   0.371466468626084,
+   0.38488503063182966,
+   0.38488503063182966,
+   0.39488503063183145,
+   0.39488503063183145,
+   0.39488503063183145,
+   0.39488503063183145,
+   0.39488503063183145,
+   0.3959394097117732,
+   0.3959394097117732,
+   0.39699344247585655,
+   0.42041226422741773,
+   0.42041226422741773,
+   0.4214664686260554,
+   0.4214664686260565,
+   0.43488503063180306,
+   0.43488503063180706,
+   0.44488503063178997,
+   0.44488503063178997,
+   0.4448850306317953,
+   0.4448850306317953,
+   0.4459394097117302,
+   0.4459394097117302,
+   0.4469934424758284,
+   0.4525203327318901,
+   0.4704122642274855,
+   0.4704122642274855,
+   0.47146646862611297,
+   0.4714664686261143,
+   0.4848850306318637,
+   0.4859394097118064,
+   0.49488503063187594,
+   0.4948850306318773,
+   0.4948850306318773,
+   0.4959394097118046,
+   0.4959394097118126,
+   0.4969934424758915,
+   0.5025203327319743,
+   0.5104122642274864,
+   0.5204122642274842,
+   0.5204122642274842,
+   0.5214664686261099,
+   0.5225203327319614,
+   0.5348850306318675,
+   0.5348850306318675,
+   0.5348850306318675,
+   0.5348850306318722,
+   0.5448850306318713,
+   0.5448850306318713,
+   0.5459394097118084,
+   0.5469934424758951,
+   0.5525203327319637,
+   0.5525203327319637,
+   0.5704122642274765,
+   0.5714664686261091,
+   0.5748850306318682,
+   0.578047140831409,
+   0.5848850306318698,
+   0.5859394097118038,
+   0.5948850306318725,
+   0.5959394097118007,
+   0.6025203327319593,
+   0.6025203327319648,
+   0.611466468626108,
+   0.620412264227481,
+   0.6248850306318718,
+   0.6348850306318656,
+   0.6348850306318656,
+   0.644885030631869,
+   0.6525203327319691,
+   0.6525203327319724,
+   0.6604122642272867,
+   0.6614664686259197
+  ],
+  "design_list": [
+   {
+    "name": "1H2O+1gly+3bipy",
+    "analyte": "CN",
+    "min_margin": 0.6025203327319648,
+    "fstar_imidazole": 1.8325203327319648,
+    "fp": []
+   },
+   {
+    "name": "1H2O+2py+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.6525203327319724,
+    "fstar_imidazole": 1.8825203327319724,
+    "fp": []
+   },
+   {
+    "name": "1H2O+1py+3bipy",
+    "analyte": "CN",
+    "min_margin": 0.5525203327319637,
+    "fstar_imidazole": 1.7825203327319636,
+    "fp": []
+   },
+   {
+    "name": "1H2O+1NH3+3bipy",
+    "analyte": "CN",
+    "min_margin": 0.578047140831409,
+    "fstar_imidazole": 1.808047140831409,
+    "fp": []
+   },
+   {
+    "name": "1H2O+4en",
+    "analyte": "CN",
+    "min_margin": 0.6525203327319691,
+    "fstar_imidazole": 1.882520332731969,
+    "fp": []
+   },
+   {
+    "name": "1H2O+3en+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.6025203327319593,
+    "fstar_imidazole": 1.8325203327319592,
+    "fp": []
+   },
+   {
+    "name": "1H2O+2en+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.5525203327319637,
+    "fstar_imidazole": 1.7825203327319636,
+    "fp": []
+   },
+   {
+    "name": "1H2O+1en+3bipy",
+    "analyte": "CN",
+    "min_margin": 0.5025203327319743,
+    "fstar_imidazole": 1.7325203327319743,
+    "fp": []
+   },
+   {
+    "name": "1H2O+4bipy",
+    "analyte": "CN",
+    "min_margin": 0.4525203327318901,
+    "fstar_imidazole": 1.68252033273189,
+    "fp": []
+   },
+   {
+    "name": "2ox+1en+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.6248850306318718,
+    "fstar_imidazole": 1.8548850306318718,
+    "fp": []
+   },
+   {
+    "name": "2ox+3bipy",
+    "analyte": "CN",
+    "min_margin": 0.5748850306318682,
+    "fstar_imidazole": 1.8048850306318682,
+    "fp": []
+   },
+   {
+    "name": "1ox+2gly+2en",
+    "analyte": "CN",
+    "min_margin": 0.6348850306318656,
+    "fstar_imidazole": 1.8648850306318656,
+    "fp": []
+   },
+   {
+    "name": "1ox+2gly+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.5348850306318675,
+    "fstar_imidazole": 1.7648850306318675,
+    "fp": []
+   },
+   {
+    "name": "1ox+1gly+3en",
+    "analyte": "CN",
+    "min_margin": 0.5348850306318722,
+    "fstar_imidazole": 1.7648850306318722,
+    "fp": []
+   },
+   {
+    "name": "1ox+1gly+3bipy",
+    "analyte": "CN",
+    "min_margin": 0.38488503063182966,
+    "fstar_imidazole": 1.6148850306318296,
+    "fp": []
+   },
+   {
+    "name": "1ox+4py",
+    "analyte": "CN",
+    "min_margin": 0.6348850306318656,
+    "fstar_imidazole": 1.8648850306318656,
+    "fp": []
+   },
+   {
+    "name": "1ox+3py+1NH3",
+    "analyte": "CN",
+    "min_margin": 0.6604122642272867,
+    "fstar_imidazole": 1.8904122642272867,
+    "fp": []
+   },
+   {
+    "name": "1ox+3py+1en",
+    "analyte": "CN",
+    "min_margin": 0.5848850306318698,
+    "fstar_imidazole": 1.8148850306318698,
+    "fp": []
+   },
+   {
+    "name": "1ox+3py+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.5348850306318675,
+    "fstar_imidazole": 1.7648850306318675,
+    "fp": []
+   },
+   {
+    "name": "1ox+2py+2en",
+    "analyte": "CN",
+    "min_margin": 0.5348850306318675,
+    "fstar_imidazole": 1.7648850306318675,
+    "fp": []
+   },
+   {
+    "name": "1ox+2py+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.43488503063180706,
+    "fstar_imidazole": 1.664885030631807,
+    "fp": []
+   },
+   {
+    "name": "1ox+1py+3en",
+    "analyte": "CN",
+    "min_margin": 0.4848850306318637,
+    "fstar_imidazole": 1.7148850306318637,
+    "fp": []
+   },
+   {
+    "name": "1ox+1py+3bipy",
+    "analyte": "CN",
+    "min_margin": 0.33488503063185515,
+    "fstar_imidazole": 1.5648850306318551,
+    "fp": []
+   },
+   {
+    "name": "1ox+3NH3+1en",
+    "analyte": "CN",
+    "min_margin": 0.6614664686259197,
+    "fstar_imidazole": 1.8914664686259197,
+    "fp": []
+   },
+   {
+    "name": "1ox+3NH3+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.611466468626108,
+    "fstar_imidazole": 1.841466468626108,
+    "fp": []
+   },
+   {
+    "name": "1ox+2NH3+2en",
+    "analyte": "CN",
+    "min_margin": 0.5859394097118038,
+    "fstar_imidazole": 1.8159394097118038,
+    "fp": []
+   },
+   {
+    "name": "1ox+2NH3+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.4859394097118064,
+    "fstar_imidazole": 1.7159394097118064,
+    "fp": []
+   },
+   {
+    "name": "1ox+1NH3+3en",
+    "analyte": "CN",
+    "min_margin": 0.5104122642274864,
+    "fstar_imidazole": 1.7404122642274864,
+    "fp": []
+   },
+   {
+    "name": "1ox+1NH3+3bipy",
+    "analyte": "CN",
+    "min_margin": 0.3604122642274472,
+    "fstar_imidazole": 1.5904122642274472,
+    "fp": []
+   },
+   {
+    "name": "1ox+4en",
+    "analyte": "CN",
+    "min_margin": 0.43488503063180306,
+    "fstar_imidazole": 1.664885030631803,
+    "fp": []
+   },
+   {
+    "name": "1ox+3en+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.38488503063182966,
+    "fstar_imidazole": 1.6148850306318296,
+    "fp": []
+   },
+   {
+    "name": "1ox+2en+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.33488503063185515,
+    "fstar_imidazole": 1.5648850306318551,
+    "fp": []
+   },
+   {
+    "name": "1ox+1en+3bipy",
+    "analyte": "CN",
+    "min_margin": 0.28488503063187043,
+    "fstar_imidazole": 1.5148850306318704,
+    "fp": []
+   },
+   {
+    "name": "1ox+4bipy",
+    "analyte": "CN",
+    "min_margin": 0.23488503063187016,
+    "fstar_imidazole": 1.4648850306318701,
+    "fp": []
+   },
+   {
+    "name": "5gly",
+    "analyte": "CN",
+    "min_margin": 0.644885030631869,
+    "fstar_imidazole": 1.874885030631869,
+    "fp": []
+   },
+   {
+    "name": "4gly+1py",
+    "analyte": "CN",
+    "min_margin": 0.5948850306318725,
+    "fstar_imidazole": 1.8248850306318725,
+    "fp": []
+   },
+   {
+    "name": "4gly+1NH3",
+    "analyte": "CN",
+    "min_margin": 0.620412264227481,
+    "fstar_imidazole": 1.850412264227481,
+    "fp": []
+   },
+   {
+    "name": "4gly+1en",
+    "analyte": "CN",
+    "min_margin": 0.5448850306318713,
+    "fstar_imidazole": 1.7748850306318713,
+    "fp": []
+   },
+   {
+    "name": "4gly+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.4948850306318773,
+    "fstar_imidazole": 1.7248850306318773,
+    "fp": []
+   },
+   {
+    "name": "3gly+2py",
+    "analyte": "CN",
+    "min_margin": 0.5448850306318713,
+    "fstar_imidazole": 1.7748850306318713,
+    "fp": []
+   },
+   {
+    "name": "3gly+1py+1NH3",
+    "analyte": "CN",
+    "min_margin": 0.5704122642274765,
+    "fstar_imidazole": 1.8004122642274765,
+    "fp": []
+   },
+   {
+    "name": "3gly+1py+1en",
+    "analyte": "CN",
+    "min_margin": 0.4948850306318773,
+    "fstar_imidazole": 1.7248850306318773,
+    "fp": []
+   },
+   {
+    "name": "3gly+1py+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.44488503063178997,
+    "fstar_imidazole": 1.67488503063179,
+    "fp": []
+   },
+   {
+    "name": "3gly+2NH3",
+    "analyte": "CN",
+    "min_margin": 0.5959394097118007,
+    "fstar_imidazole": 1.8259394097118007,
+    "fp": []
+   },
+   {
+    "name": "3gly+1NH3+1en",
+    "analyte": "CN",
+    "min_margin": 0.5204122642274842,
+    "fstar_imidazole": 1.7504122642274842,
+    "fp": []
+   },
+   {
+    "name": "3gly+1NH3+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.4704122642274855,
+    "fstar_imidazole": 1.7004122642274855,
+    "fp": []
+   },
+   {
+    "name": "3gly+2en",
+    "analyte": "CN",
+    "min_margin": 0.4448850306317953,
+    "fstar_imidazole": 1.6748850306317953,
+    "fp": []
+   },
+   {
+    "name": "3gly+1en+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.39488503063183145,
+    "fstar_imidazole": 1.6248850306318314,
+    "fp": []
+   },
+   {
+    "name": "3gly+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.3448850306318634,
+    "fstar_imidazole": 1.5748850306318634,
+    "fp": []
+   },
+   {
+    "name": "2gly+3py",
+    "analyte": "CN",
+    "min_margin": 0.49488503063187594,
+    "fstar_imidazole": 1.724885030631876,
+    "fp": []
+   },
+   {
+    "name": "2gly+2py+1NH3",
+    "analyte": "CN",
+    "min_margin": 0.5204122642274842,
+    "fstar_imidazole": 1.7504122642274842,
+    "fp": []
+   },
+   {
+    "name": "2gly+2py+1en",
+    "analyte": "CN",
+    "min_margin": 0.4448850306317953,
+    "fstar_imidazole": 1.6748850306317953,
+    "fp": []
+   },
+   {
+    "name": "2gly+2py+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.39488503063183145,
+    "fstar_imidazole": 1.6248850306318314,
+    "fp": []
+   },
+   {
+    "name": "2gly+1py+2NH3",
+    "analyte": "CN",
+    "min_margin": 0.5459394097118084,
+    "fstar_imidazole": 1.7759394097118084,
+    "fp": []
+   },
+   {
+    "name": "2gly+1py+2en",
+    "analyte": "CN",
+    "min_margin": 0.39488503063183145,
+    "fstar_imidazole": 1.6248850306318314,
+    "fp": []
+   },
+   {
+    "name": "2gly+1py+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.29488503063187843,
+    "fstar_imidazole": 1.5248850306318784,
+    "fp": []
+   },
+   {
+    "name": "2gly+3NH3",
+    "analyte": "CN",
+    "min_margin": 0.5714664686261091,
+    "fstar_imidazole": 1.801466468626109,
+    "fp": []
+   },
+   {
+    "name": "2gly+2NH3+1en",
+    "analyte": "CN",
+    "min_margin": 0.4959394097118046,
+    "fstar_imidazole": 1.7259394097118046,
+    "fp": []
+   },
+   {
+    "name": "2gly+2NH3+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.4459394097117302,
+    "fstar_imidazole": 1.6759394097117302,
+    "fp": []
+   },
+   {
+    "name": "2gly+1NH3+2en",
+    "analyte": "CN",
+    "min_margin": 0.42041226422741773,
+    "fstar_imidazole": 1.6504122642274177,
+    "fp": []
+   },
+   {
+    "name": "2gly+1NH3+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.3204122642274918,
+    "fstar_imidazole": 1.5504122642274918,
+    "fp": []
+   },
+   {
+    "name": "2gly+3en",
+    "analyte": "CN",
+    "min_margin": 0.3448850306318634,
+    "fstar_imidazole": 1.5748850306318634,
+    "fp": []
+   },
+   {
+    "name": "2gly+2en+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.29488503063187843,
+    "fstar_imidazole": 1.5248850306318784,
+    "fp": []
+   },
+   {
+    "name": "2gly+1en+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.24488503063187128,
+    "fstar_imidazole": 1.4748850306318713,
+    "fp": []
+   },
+   {
+    "name": "2gly+3bipy",
+    "analyte": "CN",
+    "min_margin": 0.19488503063187568,
+    "fstar_imidazole": 1.4248850306318757,
+    "fp": []
+   },
+   {
+    "name": "1gly+4py",
+    "analyte": "CN",
+    "min_margin": 0.44488503063178997,
+    "fstar_imidazole": 1.67488503063179,
+    "fp": []
+   },
+   {
+    "name": "1gly+3py+1NH3",
+    "analyte": "CN",
+    "min_margin": 0.4704122642274855,
+    "fstar_imidazole": 1.7004122642274855,
+    "fp": []
+   },
+   {
+    "name": "1gly+3py+1en",
+    "analyte": "CN",
+    "min_margin": 0.39488503063183145,
+    "fstar_imidazole": 1.6248850306318314,
+    "fp": []
+   },
+   {
+    "name": "1gly+3py+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.3448850306318634,
+    "fstar_imidazole": 1.5748850306318634,
+    "fp": []
+   },
+   {
+    "name": "1gly+2py+2NH3",
+    "analyte": "CN",
+    "min_margin": 0.4959394097118126,
+    "fstar_imidazole": 1.7259394097118126,
+    "fp": []
+   },
+   {
+    "name": "1gly+2py+2en",
+    "analyte": "CN",
+    "min_margin": 0.3448850306318634,
+    "fstar_imidazole": 1.5748850306318634,
+    "fp": []
+   },
+   {
+    "name": "1gly+2py+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.24488503063186973,
+    "fstar_imidazole": 1.4748850306318697,
+    "fp": []
+   },
+   {
+    "name": "1gly+1py+3NH3",
+    "analyte": "CN",
+    "min_margin": 0.5214664686261099,
+    "fstar_imidazole": 1.7514664686261099,
+    "fp": []
+   },
+   {
+    "name": "1gly+1py+3en",
+    "analyte": "CN",
+    "min_margin": 0.2948850306318713,
+    "fstar_imidazole": 1.5248850306318713,
+    "fp": []
+   },
+   {
+    "name": "1gly+1py+3bipy",
+    "analyte": "CN",
+    "min_margin": 0.14488503063186386,
+    "fstar_imidazole": 1.3748850306318638,
+    "fp": []
+   },
+   {
+    "name": "1gly+4NH3",
+    "analyte": "CN",
+    "min_margin": 0.5469934424758951,
+    "fstar_imidazole": 1.776993442475895,
+    "fp": []
+   },
+   {
+    "name": "1gly+3NH3+1en",
+    "analyte": "CN",
+    "min_margin": 0.4714664686261143,
+    "fstar_imidazole": 1.7014664686261143,
+    "fp": []
+   },
+   {
+    "name": "1gly+3NH3+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.4214664686260565,
+    "fstar_imidazole": 1.6514664686260565,
+    "fp": []
+   },
+   {
+    "name": "1gly+2NH3+2en",
+    "analyte": "CN",
+    "min_margin": 0.3959394097117732,
+    "fstar_imidazole": 1.6259394097117732,
+    "fp": []
+   },
+   {
+    "name": "1gly+2NH3+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.29593940971180954,
+    "fstar_imidazole": 1.5259394097118095,
+    "fp": []
+   },
+   {
+    "name": "1gly+1NH3+3en",
+    "analyte": "CN",
+    "min_margin": 0.3204122642274905,
+    "fstar_imidazole": 1.5504122642274905,
+    "fp": []
+   },
+   {
+    "name": "1gly+1NH3+3bipy",
+    "analyte": "CN",
+    "min_margin": 0.17041226422747813,
+    "fstar_imidazole": 1.400412264227478,
+    "fp": []
+   },
+   {
+    "name": "1gly+4en",
+    "analyte": "CN",
+    "min_margin": 0.24488503063186973,
+    "fstar_imidazole": 1.4748850306318697,
+    "fp": []
+   },
+   {
+    "name": "1gly+3en+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.1948850306318699,
+    "fstar_imidazole": 1.4248850306318699,
+    "fp": []
+   },
+   {
+    "name": "1gly+2en+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.14488503063186386,
+    "fstar_imidazole": 1.3748850306318638,
+    "fp": []
+   },
+   {
+    "name": "1gly+1en+3bipy",
+    "analyte": "CN",
+    "min_margin": 0.09488503063186582,
+    "fstar_imidazole": 1.3248850306318658,
+    "fp": []
+   },
+   {
+    "name": "1gly+4bipy",
+    "analyte": "CN",
+    "min_margin": 0.044885030631867995,
+    "fstar_imidazole": 1.274885030631868,
+    "fp": []
+   },
+   {
+    "name": "5py",
+    "analyte": "CN",
+    "min_margin": 0.39488503063183145,
+    "fstar_imidazole": 1.6248850306318314,
+    "fp": []
+   },
+   {
+    "name": "4py+1NH3",
+    "analyte": "CN",
+    "min_margin": 0.42041226422741773,
+    "fstar_imidazole": 1.6504122642274177,
+    "fp": []
+   },
+   {
+    "name": "4py+1en",
+    "analyte": "CN",
+    "min_margin": 0.3448850306318634,
+    "fstar_imidazole": 1.5748850306318634,
+    "fp": []
+   },
+   {
+    "name": "4py+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.29488503063187843,
+    "fstar_imidazole": 1.5248850306318784,
+    "fp": []
+   },
+   {
+    "name": "3py+2NH3",
+    "analyte": "CN",
+    "min_margin": 0.4459394097117302,
+    "fstar_imidazole": 1.6759394097117302,
+    "fp": []
+   },
+   {
+    "name": "3py+1NH3+1en",
+    "analyte": "CN",
+    "min_margin": 0.3704122642274532,
+    "fstar_imidazole": 1.6004122642274532,
+    "fp": []
+   },
+   {
+    "name": "3py+1NH3+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.3204122642274918,
+    "fstar_imidazole": 1.5504122642274918,
+    "fp": []
+   },
+   {
+    "name": "3py+2en",
+    "analyte": "CN",
+    "min_margin": 0.29488503063187843,
+    "fstar_imidazole": 1.5248850306318784,
+    "fp": []
+   },
+   {
+    "name": "3py+1en+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.24488503063187128,
+    "fstar_imidazole": 1.4748850306318713,
+    "fp": []
+   },
+   {
+    "name": "3py+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.19488503063187568,
+    "fstar_imidazole": 1.4248850306318757,
+    "fp": []
+   },
+   {
+    "name": "2py+3NH3",
+    "analyte": "CN",
+    "min_margin": 0.47146646862611297,
+    "fstar_imidazole": 1.701466468626113,
+    "fp": []
+   },
+   {
+    "name": "2py+2NH3+1en",
+    "analyte": "CN",
+    "min_margin": 0.3959394097117732,
+    "fstar_imidazole": 1.6259394097117732,
+    "fp": []
+   },
+   {
+    "name": "2py+2NH3+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.34593940971179027,
+    "fstar_imidazole": 1.5759394097117903,
+    "fp": []
+   },
+   {
+    "name": "2py+1NH3+2en",
+    "analyte": "CN",
+    "min_margin": 0.3204122642274905,
+    "fstar_imidazole": 1.5504122642274905,
+    "fp": []
+   },
+   {
+    "name": "2py+1NH3+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.22041226422747817,
+    "fstar_imidazole": 1.4504122642274782,
+    "fp": []
+   },
+   {
+    "name": "2py+3en",
+    "analyte": "CN",
+    "min_margin": 0.24488503063186973,
+    "fstar_imidazole": 1.4748850306318697,
+    "fp": []
+   },
+   {
+    "name": "2py+2en+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.1948850306318699,
+    "fstar_imidazole": 1.4248850306318699,
+    "fp": []
+   },
+   {
+    "name": "2py+1en+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.14488503063186386,
+    "fstar_imidazole": 1.3748850306318638,
+    "fp": []
+   },
+   {
+    "name": "2py+3bipy",
+    "analyte": "CN",
+    "min_margin": 0.09488503063186582,
+    "fstar_imidazole": 1.3248850306318658,
+    "fp": []
+   },
+   {
+    "name": "1py+4NH3",
+    "analyte": "CN",
+    "min_margin": 0.4969934424758915,
+    "fstar_imidazole": 1.7269934424758915,
+    "fp": []
+   },
+   {
+    "name": "1py+3NH3+1en",
+    "analyte": "CN",
+    "min_margin": 0.4214664686260554,
+    "fstar_imidazole": 1.6514664686260554,
+    "fp": []
+   },
+   {
+    "name": "1py+3NH3+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.371466468626084,
+    "fstar_imidazole": 1.601466468626084,
+    "fp": []
+   },
+   {
+    "name": "1py+2NH3+2en",
+    "analyte": "CN",
+    "min_margin": 0.34593940971179027,
+    "fstar_imidazole": 1.5759394097117903,
+    "fp": []
+   },
+   {
+    "name": "1py+2NH3+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.2459394097118066,
+    "fstar_imidazole": 1.4759394097118066,
+    "fp": []
+   },
+   {
+    "name": "1py+1NH3+3en",
+    "analyte": "CN",
+    "min_margin": 0.2704122642274811,
+    "fstar_imidazole": 1.500412264227481,
+    "fp": []
+   },
+   {
+    "name": "1py+1NH3+3bipy",
+    "analyte": "CN",
+    "min_margin": 0.12041226422748341,
+    "fstar_imidazole": 1.3504122642274834,
+    "fp": []
+   },
+   {
+    "name": "1py+4en",
+    "analyte": "CN",
+    "min_margin": 0.1948850306318699,
+    "fstar_imidazole": 1.4248850306318699,
+    "fp": []
+   },
+   {
+    "name": "1py+3en+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.14488503063186386,
+    "fstar_imidazole": 1.3748850306318638,
+    "fp": []
+   },
+   {
+    "name": "1py+2en+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.09488503063186582,
+    "fstar_imidazole": 1.3248850306318658,
+    "fp": []
+   },
+   {
+    "name": "1py+1en+3bipy",
+    "analyte": "CN",
+    "min_margin": 0.044885030631867995,
+    "fstar_imidazole": 1.274885030631868,
+    "fp": []
+   },
+   {
+    "name": "1py+4bipy",
+    "analyte": "CN",
+    "min_margin": -0.005114969368137379,
+    "fstar_imidazole": 1.2248850306318626,
+    "fp": []
+   },
+   {
+    "name": "5NH3",
+    "analyte": "CN",
+    "min_margin": 0.5225203327319614,
+    "fstar_imidazole": 1.7525203327319614,
+    "fp": []
+   },
+   {
+    "name": "4NH3+1en",
+    "analyte": "CN",
+    "min_margin": 0.4469934424758284,
+    "fstar_imidazole": 1.6769934424758284,
+    "fp": []
+   },
+   {
+    "name": "4NH3+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.39699344247585655,
+    "fstar_imidazole": 1.6269934424758565,
+    "fp": []
+   },
+   {
+    "name": "3NH3+2en",
+    "analyte": "CN",
+    "min_margin": 0.371466468626084,
+    "fstar_imidazole": 1.601466468626084,
+    "fp": []
+   },
+   {
+    "name": "3NH3+1en+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.32146646862611705,
+    "fstar_imidazole": 1.551466468626117,
+    "fp": []
+   },
+   {
+    "name": "3NH3+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.2714664686261137,
+    "fstar_imidazole": 1.5014664686261137,
+    "fp": []
+   },
+   {
+    "name": "2NH3+3en",
+    "analyte": "CN",
+    "min_margin": 0.29593940971180777,
+    "fstar_imidazole": 1.5259394097118077,
+    "fp": []
+   },
+   {
+    "name": "2NH3+2en+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.2459394097118066,
+    "fstar_imidazole": 1.4759394097118066,
+    "fp": []
+   },
+   {
+    "name": "2NH3+1en+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.195939409711809,
+    "fstar_imidazole": 1.425939409711809,
+    "fp": []
+   },
+   {
+    "name": "2NH3+3bipy",
+    "analyte": "CN",
+    "min_margin": 0.14593940971179764,
+    "fstar_imidazole": 1.3759394097117976,
+    "fp": []
+   },
+   {
+    "name": "1NH3+4en",
+    "analyte": "CN",
+    "min_margin": 0.22041226422747284,
+    "fstar_imidazole": 1.4504122642274728,
+    "fp": []
+   },
+   {
+    "name": "1NH3+3en+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.1704122642274779,
+    "fstar_imidazole": 1.4004122642274779,
+    "fp": []
+   },
+   {
+    "name": "1NH3+2en+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.12041226422748341,
+    "fstar_imidazole": 1.3504122642274834,
+    "fp": []
+   },
+   {
+    "name": "1NH3+1en+3bipy",
+    "analyte": "CN",
+    "min_margin": 0.07041226422747937,
+    "fstar_imidazole": 1.3004122642274794,
+    "fp": []
+   },
+   {
+    "name": "1NH3+4bipy",
+    "analyte": "CN",
+    "min_margin": 0.020412264227482435,
+    "fstar_imidazole": 1.2504122642274824,
+    "fp": []
+   },
+   {
+    "name": "5en",
+    "analyte": "CN",
+    "min_margin": 0.14488503063186386,
+    "fstar_imidazole": 1.3748850306318638,
+    "fp": []
+   },
+   {
+    "name": "4en+1bipy",
+    "analyte": "CN",
+    "min_margin": 0.09488503063186582,
+    "fstar_imidazole": 1.3248850306318658,
+    "fp": []
+   },
+   {
+    "name": "3en+2bipy",
+    "analyte": "CN",
+    "min_margin": 0.044885030631867995,
+    "fstar_imidazole": 1.274885030631868,
+    "fp": []
+   },
+   {
+    "name": "2en+3bipy",
+    "analyte": "CN",
+    "min_margin": -0.005114969368137379,
+    "fstar_imidazole": 1.2248850306318626,
+    "fp": []
+   },
+   {
+    "name": "1en+4bipy",
+    "analyte": "N3",
+    "min_margin": -0.055114969368127875,
+    "fstar_imidazole": 1.174885030631872,
+    "fp": [
+     "imidazole"
+    ]
+   },
+   {
+    "name": "1en+4bipy",
+    "analyte": "CN",
+    "min_margin": -0.055114969368127875,
+    "fstar_imidazole": 1.174885030631872,
+    "fp": [
+     "imidazole"
+    ]
+   },
+   {
+    "name": "5bipy",
+    "analyte": "N3",
+    "min_margin": -0.10511496938077891,
+    "fstar_imidazole": 1.124885030619221,
+    "fp": [
+     "imidazole",
+     "amine"
+    ]
+   },
+   {
+    "name": "5bipy",
+    "analyte": "CN",
+    "min_margin": -0.10511496938077891,
+    "fstar_imidazole": 1.124885030619221,
+    "fp": [
+     "imidazole",
+     "amine"
+    ]
+   }
+  ],
+  "thiolate_h_sensitivity": {
+   "1.4": {
+    "thiolate_fp": 0,
+    "n_selective_all": 137
+   },
+   "1.5": {
+    "thiolate_fp": 0,
+    "n_selective_all": 137
+   },
+   "1.6": {
+    "thiolate_fp": 0,
+    "n_selective_all": 137
+   },
+   "1.7": {
+    "thiolate_fp": 0,
+    "n_selective_all": 137
+   },
+   "1.8": {
+    "thiolate_fp": 0,
+    "n_selective_all": 137
+   },
+   "1.9": {
+    "thiolate_fp": 0,
+    "n_selective_all": 137
+   },
+   "2.0": {
+    "thiolate_fp": 0,
+    "n_selective_all": 137
+   },
+   "2.1": {
+    "thiolate_fp": 0,
+    "n_selective_all": 137
+   },
+   "2.2": {
+    "thiolate_fp": 0,
+    "n_selective_all": 137
+   },
+   "2.3": {
+    "thiolate_fp": 0,
+    "n_selective_all": 137
+   },
+   "2.4": {
+    "thiolate_fp": 0,
+    "n_selective_all": 137
+   },
+   "2.5": {
+    "thiolate_fp": 2,
+    "n_selective_all": 137
+   },
+   "2.6": {
+    "thiolate_fp": 4,
+    "n_selective_all": 137
+   },
+   "2.7": {
+    "thiolate_fp": 6,
+    "n_selective_all": 135
+   },
+   "2.8": {
+    "thiolate_fp": 10,
+    "n_selective_all": 131
+   },
+   "2.9": {
+    "thiolate_fp": 15,
+    "n_selective_all": 126
+   },
+   "3.0": {
+    "thiolate_fp": 23,
+    "n_selective_all": 118
+   }
+  }
+ },
+ "competition": {
+  "cyanide": {
+   "chloride": 5000.0,
+   "bicarbonate": 1250.0,
+   "phosphate": 50.0,
+   "albumin": 29.999999999999996,
+   "histidine": 4.0,
+   "cysteine": 1.5,
+   "thiocyanate": 2.5,
+   "glutathione (intracellular)": 100.0
+  },
+  "azide": {
+   "chloride": 5000.0,
+   "bicarbonate": 1250.0,
+   "phosphate": 50.0,
+   "albumin": 29.999999999999996,
+   "histidine": 4.0,
+   "cysteine": 1.5,
+   "thiocyanate": 2.5,
+   "glutathione (intracellular)": 100.0
+  },
+  "thiocyanate": {
+   "chloride": 2000.0,
+   "bicarbonate": 500.0,
+   "phosphate": 20.0,
+   "albumin": 11.999999999999998,
+   "histidine": 1.6,
+   "cysteine": 0.6,
+   "thiocyanate": 1.0,
+   "glutathione (intracellular)": 40.0
+  },
+  "chloride": {
+   "chloride": 1.0,
+   "bicarbonate": 0.25,
+   "phosphate": 0.01,
+   "albumin": 0.005999999999999999,
+   "histidine": 0.0008,
+   "cysteine": 0.0003,
+   "thiocyanate": 0.0005,
+   "glutathione (intracellular)": 0.02
+  }
+ },
+ "sizemap": {
+  "two_RT_kJ": 5.15496682316,
+  "table": {
+   "6": {
+    "10": 0.0,
+    "20": 0.0,
+    "50": 0.5847087514329132,
+    "100": 3.315293587742815,
+    "200": 5.194676857087586,
+    "bulk": 7.3635425409890445,
+    "d_c": 40.53444028358723
+   },
+   "8": {
+    "10": 0.0,
+    "20": 5.3124277518753615,
+    "50": 24.41394428947251,
+    "100": 33.07376486781749,
+    "200": 37.81736329057145,
+    "bulk": 42.83653063435543,
+    "d_c": 14.676878563518224
+   },
+   "10": {
+    "10": 0.0,
+    "20": 28.387609621242916,
+    "50": 62.0589880484938,
+    "100": 75.89319546946285,
+    "200": 83.3175741156806,
+    "bulk": 91.08797996848224,
+    "d_c": 10.091685916084302
+   }
+  }
+ },
+ "geometry": {
+  "R_LS": 1.97,
+  "R_HS": 2.17,
+  "dR": 0.19999999999999996,
+  "dvol_poly_pct": 33.65355751773001,
+  "a_LS": 7.226631303726517,
+  "a_HS": 7.509474016201135,
+  "c_LS": 6.764042667317415,
+  "c_HS": 7.164042667317416,
+  "V_LS": 353.2467170665183,
+  "V_HS": 403.99612690389716,
+  "da_pct": 3.9138943248532065,
+  "dc_pct": 5.913623252743894,
+  "dV_pct": 14.366562344533417,
+  "Fe_per_nm3_LS": 2.8308826428858067,
+  "Fe_per_nm3_HS": 2.475271254860026,
+  "Fe_per_nm3_used": 2.6,
+  "V_used": 384.6153846153846,
+  "pz_span": 2.8240426673174155
+ },
+ "nv": {
+  "moment_per_fe_muB": 0.0017334550080666832,
+  "n_fe_50nm": 170169.6020694471,
+  "field_50nm_at_100nm_nT": 280.1315842937629,
+  "field_100nm_at_50nm_uT": 4.377056004590046,
+  "t_typ_50_100_s": 114.68809909220664,
+  "t_best_50_100_s": 0.011468809909220666,
+  "t_typ_100_50_s": 0.46976245388167814,
+  "table_nT": {
+   "20": {
+    "10": 4377.056004590048,
+    "50": 162.1131853551869,
+    "100": 26.30837568498902,
+    "200": 3.7810655476428447
+   },
+   "50": {
+    "10": 12761.096223294597,
+    "50": 1296.905482841495,
+    "100": 280.1315842937629,
+    "200": 48.033536401536864
+   },
+   "100": {
+    "10": 20264.14816939836,
+    "50": 4377.0560045900465,
+    "100": 1296.905482841495,
+    "200": 280.1315842937629
+   },
+   "200": {
+    "10": 26308.375684989012,
+    "50": 10375.24386273196,
+    "100": 4377.0560045900465,
+    "200": 1296.905482841495
+   }
+  },
+  "pitch_nm": {
+   "50": 165.3059253597769,
+   "100": 330.6118507195538,
+   "200": 661.2237014391076
+  }
+ },
+ "response": {
+  "tau_shell_gel_s": 5.000000000000001e-07,
+  "tau_shell_silica_s": 0.0012499999999999998,
+  "tau_exchange_s": 2.2727272727272726e-07,
+  "tau_assoc_20uM_s": 0.011363636363636362,
+  "tau_assoc_100nM_s": 2.272727272727273
+ },
+ "graphene": {
+  "full": {
+   "dphi_mV": 125.57673538307124,
+   "dn_cm2": 1158609193288.47,
+   "rel_to_1e12_pct": 115.860919328847,
+   "rel_to_1e13_pct": 11.5860919328847
+  },
+  "half": {
+   "dphi_mV": 62.78836769153562,
+   "dn_cm2": 289652298322.1175,
+   "rel_to_1e12_pct": 28.96522983221175,
+   "rel_to_1e13_pct": 2.896522983221175
+  }
+ },
+ "radiation": {
+  "ion_per_gy_50nm": 0.021786976728488852,
+  "gy_per_ion_50nm": 45.89897958133818,
+  "ion_per_gy_200nm": 1.3943665106232865,
+  "particles_per_radiograph": 4589.897958133818,
+  "frac_per_2gy_fraction_pct": 4.35739534569777,
+  "ion_per_60gy_course": 1.3072186037093312,
+  "stopping_water_10MeV": 45.947474262470706,
+  "stopping_sco_10MeV": 30.31370673602113,
+  "I_sco_eV": 226.26530628311104,
+  "gy_per_1e10_fluence_sco": 48.56791262238146,
+  "disp_50nm_10MeV_1e10": 9.604346831734045e-05,
+  "disp_50nm_10MeV_1e10_no_partition": 0.00015697477688605036,
+  "ion_50nm_10MeV_1e10": 1.058147982055105,
+  "ratio_ion_disp": 11017.386195996616,
+  "ratio_ion_disp_no_partition": 6740.879031942984
+ },
+ "microscopy": {
+  "d200_LS_nm": 0.36133156518632586,
+  "d200_HS_nm": 0.3754737008100567,
+  "dq_nm": 0.10423884060079969,
+  "shift_inplane_pct": 3.9138943248532065,
+  "shift_pillar_pct": 5.913623252743894,
+  "d_min_nm": 8.63401775012735,
+  "ratio_20": 2.316418680017771,
+  "ratio_50": 5.791046700044427,
+  "ratio_5": 0.5791046700044428,
+  "planes_20": 55.35082435902523,
+  "planes_50": 138.3770608975631,
+  "surf_pct_20": 27.09999999999999,
+  "surf_pct_50": 11.526400000000015,
+  "fringe_diff_one_nm": 9.593353055697056,
+  "fringe_diff_two_nm": 19.186706111394113,
+  "fringe_diff_50": 5.211942030039984,
+  "fringe_diff_20": 2.0847768120159937,
+  "info_limit_nm": 0.08,
+  "mfp_nm": 25.0
+ },
+ "runtime_s": 38.97754788398743
+}

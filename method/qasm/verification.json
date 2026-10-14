@@ -1,0 +1,24 @@
+{
+ "routed_nearest_neighbour_only": true,
+ "n_files": 600,
+ "n_native_files": 300,
+ "max_energy_deviation_cm": 5.093170329928398e-11,
+ "gate_counts": {
+  "native_ansatz": [
+   24,
+   12
+  ],
+  "native_twin": [
+   24,
+   12
+  ],
+  "routed_ansatz": [
+   48,
+   12
+  ],
+  "routed_twin": [
+   48,
+   12
+  ]
+ }
+}

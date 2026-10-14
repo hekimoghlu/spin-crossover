@@ -1,0 +1,1 @@
+run_all.sh total wall time: 128 s

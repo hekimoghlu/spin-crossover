@@ -1,0 +1,10 @@
+[package]
+name = "scmc"
+version = "0.1.0"
+edition = "2021"
+description = "Slichter-Drickamer mean-field and Ising-like Monte Carlo hysteresis of spin-crossover particles vs size (std only)"
+
+[dependencies]
+
+[profile.release]
+opt-level = 3
