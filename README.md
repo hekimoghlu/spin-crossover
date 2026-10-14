@@ -1,4 +1,5 @@
-# Spin-crossover papers: independent reimplementation
+# Spin-crossover research
+### By Tunjay Akbarli & Ayan Nazaraliyeva
 
 | Folder | Paper | Languages |
 |---|---|---|
